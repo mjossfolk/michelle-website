@@ -4,11 +4,15 @@
    Author's custom styles
    ========================================================================== */
 
-<<<<<<< HEAD
 html, body {
   margin: 0;
   padding: 0;
   font-family: Courier New;
+}
+
+p {
+	padding: 0;
+	margin: 0;
 }
 
 .container {
@@ -18,10 +22,15 @@ html, body {
 .jumbotron{
 	background-color: #292447;
 	margin: 0 0;
+    height: 100vh;
 }
 
 .jumbotron img{
-	padding: 150px 150px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .about{
@@ -87,21 +96,6 @@ footer{
 	margin: 0 auto;
 	background-color: #BDC3C7;
 }
-=======
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> fecd1448bad6fd371d865a67e652f089d71cefa3
