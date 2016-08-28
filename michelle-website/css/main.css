@@ -25,13 +25,13 @@ h1 {
   margin: 0 auto;
 }
 
-.jumbotron{
+.jumbotron {
 	background-color: #292447;
 	margin: 0 0;
     height: 100vh;
 }
 
-.jumbotron img{
+.jumbotron img {
 	position: absolute;
     top: 50%;
     left: 50%;
@@ -39,15 +39,13 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.about{
-	padding: 110px 50px;
+.about {
+	padding: 100px 50px;
 	background-color: #D3CED8;
 }
 
 .fa-code {
 	display:inline-block;
-    width: 75px;
-    height: 75px;
     text-align: center;
     vertical-align: bottom;
 }
@@ -57,28 +55,29 @@ h1 {
 	line-height: 325px;
 }
 
-.portfolio{
+.portfolio {
 	display: block;
-	padding: 110px 50px;
+	padding: 100px 50px;
 	background-color: #ECF0F1;
 }
 
-.portfolio img{
+
+.portfolio img {
 	padding: 10px;
 }
 
-.social{
+.social {
 	background-color:#413C5E;
 	min-height: 250px;
 }
 
-.social h1{
+.social h1 {
 	display: block;
 	color: #ECF0F1;
 	padding: 25px 0;
 }
 
-.social ul{
+.social ul {
 	padding: 0;
 }
 
@@ -92,12 +91,13 @@ h1 {
 }
 
 .social i:hover {
-	font-size: 55px;
+	font-size: 60px;
+	box-shadow: 10px;
 }
 
-.contact-form{
+.contact-form {
 	background-color: #BDC3C7;
-	padding: 110px 50px;
+	padding: 100px 50px;
 }
 
 .contact-form h1 {
@@ -108,14 +108,15 @@ h1 {
 	padding: 0 0 20px;
 }
 
-.btn{
+.btn {
 	margin: 10px 0;
 }
 
-footer{
+footer {
 	margin: 0 auto;
 	background-color: #BDC3C7;
 }
+
 
 
 
