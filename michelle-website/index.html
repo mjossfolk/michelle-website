@@ -60,7 +60,7 @@
         <div class="row">
           <div class="col-md-6">
             <h1><strong>Front-End</strong> Dev</h1>
-              <p>My name is Michelle Ross, I am a Front-End Web Developer living in Orlando, FL. My skills include HTML5, CSS3, JQuery and a bit of JavaScript.</p>
+              <p>My name is Michelle Ross, I am a Front-End Web Developer living in Orlando, FL. My skills include HTML5, CSS3, JQuery and JavaScript.</p>
               <br>
               <p>I want to be involved in projects that I can be proud of and join an awesome team with whom I can advance my development career. </p>
               <br>
@@ -78,22 +78,84 @@
     <!-- Portfolio -->
     <div class ="portfolio">
       <div class="container">
-      <h1><strong>Portfolio</strong></h1>
+      <h1 class="text-center"><strong>Portfolio</strong></h1>
         <div class="row">
-          <div class="col-md-3">
-            <img src="http://placehold.it/180x180" class="img-responsive center-block">
+          <div class="col-md-4">
+            <!-- Image trigger modal -->
+            <a href="#myModal" role="button" data-toggle="modal">
+              <img src="http://placehold.it/150x150" data-target="#myModal" class="img-responsive center-block" >
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                     ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="col-md-3">
-            <img src="http://placehold.it/180x180" class="img-responsive center-block">
+          <div class="col-md-4">
+            <!-- Image trigger modal -->
+            <a href="#myModal" role="button" data-toggle="modal">
+              <img src="http://placehold.it/150x150" data-target="#myModal" class="img-responsive center-block">
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                     ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="col-md-3">
-            <img src="http://placehold.it/180x180" class="img-responsive center-block">
-          </div>
+          <div class="col-md-4">
+            <!-- Image trigger modal -->
+            <a href="#myModal" role="button" data-toggle="modal">
+              <img src="http://placehold.it/150x150" data-target="#myModal" class="img-responsive center-block">
+            </a>
 
-          <div class="col-md-3">
-            <img src="http://placehold.it/180x180" class="img-responsive center-block">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                     ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -101,30 +163,26 @@
 
 
       <!-- Social Networking Profiles -->
-      <div class="social">
+      <div class="social text-center">
         <div class="container">
         <h1>Get <strong>Connected</strong></h1>
           <div class="row">
-            <div class="col-md-4">
-              <img src="http://placehold.it/75x75">
-            </div>
 
-            <div class="col-md-4">
-              <img src="http://placehold.it/75x75">
-            </div>
+              <ul>
+                <li><a href="https://www.linkedin.com/in/michelle-ross-1397ba104" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+                <li><a href="https://github.com/mjossfolk" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
+                <li><a href="mailto:michelle.jossfolk@gmail.com" target="_blank"><i class="fa fa-envelope fa-3x"></i></a></li>
+              </ul>
 
-            <div class="col-md-4">
-              <img src="http://placehold.it/75x75">
-            </div>
           </div>
         </div>
       </div>
 
       <!-- Horizontal Contact Form -->
       <div class="contact-form">
-        <div class="container">
+        <div class="container text-center">
         <h1><strong>Want more info?</strong></h1>
-        <h1>Tell me what you need!</h1>
+        <h3>Tell me what you need!</h3>
           <form class="form-horizontal">
               <div class="form-group">
                 <div class="col-md-6 col-md-offset-3">

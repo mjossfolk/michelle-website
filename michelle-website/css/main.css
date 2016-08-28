@@ -16,6 +16,11 @@ p {
 	font-size: 15px;
 }
 
+h1 {
+	font-size: 50px;
+	padding: 0 0 20px 0;
+}
+
 .container {
   margin: 0 auto;
 }
@@ -39,11 +44,6 @@ p {
 	background-color: #D3CED8;
 }
 
-.about h1{
-	padding: 0 40px 10px;
-	font-size: 50px;
-}
-
 .fa-code {
 	display:inline-block;
     width: 75px;
@@ -63,27 +63,36 @@ p {
 	background-color: #ECF0F1;
 }
 
-.portfolio h1{
-	text-align: center;
-	font-size: 50px;
-	padding: 0 0 20px 0;
-}
-
 .portfolio img{
-	padding: 50px;
+	padding: 10px;
 }
 
 .social{
-	display: block;
-	padding: 50px 50px;
 	background-color:#413C5E;
+	min-height: 250px;
 }
 
 .social h1{
-	text-align: center;
-	font-size: 50px;
-	padding: 0 0 20px 0;
+	display: block;
 	color: #ECF0F1;
+	padding: 25px 0;
+}
+
+.social ul{
+	padding: 0;
+}
+
+.social li {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.social i {
+	color: #ECF0F1;
+}
+
+.social i:hover {
+	font-size: 55px;
 }
 
 .contact-form{
@@ -91,10 +100,12 @@ p {
 	padding: 110px 50px;
 }
 
-.contact-form h1{
-	text-align: center;
-	font-size: 50px;
-	padding: 0 0 20px 0;
+.contact-form h1 {
+	padding: 0 0 5px;
+}
+
+.contact-form h3 {
+	padding: 0 0 20px;
 }
 
 .btn{
