@@ -64,26 +64,31 @@ h1 {
 }
 
 .portfolio img{
-	padding: 50px;
+	padding: 10px;
 }
 
 .social{
-	display: block;
 	background-color:#413C5E;
 	min-height: 250px;
 }
 
 .social h1{
+	display: block;
 	color: #ECF0F1;
+	padding: 25px 0;
+}
+
+.social ul{
+	padding: 0;
 }
 
 .social li {
 	display: inline-block;
+	padding: 0 15px;
 }
 
 .social i {
 	color: #ECF0F1;
-	margin: 0 20px 0;
 }
 
 .social i:hover {
