@@ -5,9 +5,12 @@
    ========================================================================== */
 
 html, body {
-  margin: 0;
-  padding: 0;
-  font-family: Courier New;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+p, h1, h3 {
+	font-family: Courier New;
 }
 
 p {
@@ -21,9 +24,9 @@ h1 {
 	padding: 0 0 20px 0;
 }
 
-.container {
-  margin: 0 auto;
-}
+// .container {
+//   	margin: 0 auto;
+// }
 
 .jumbotron {
 	background-color: #292447;
@@ -40,7 +43,7 @@ h1 {
 }
 
 .about {
-	padding: 100px 50px;
+	padding: 100px 0;
 	background-color: #D3CED8;
 }
 
@@ -57,7 +60,7 @@ h1 {
 
 .portfolio {
 	display: block;
-	padding: 100px 50px;
+	padding: 100px 0;
 	background-color: #ECF0F1;
 }
 
@@ -90,14 +93,14 @@ h1 {
 	color: #ECF0F1;
 }
 
-.social i:hover {
-	font-size: 60px;
-	box-shadow: 10px;
-}
+// .social i:hover {
+// 	font-size: 60px;
+// 	box-shadow: 10px;
+// }
 
 .contact-form {
 	background-color: #BDC3C7;
-	padding: 100px 50px;
+	padding: 100px 0;
 }
 
 .contact-form h1 {
@@ -112,8 +115,19 @@ h1 {
 	margin: 10px 0;
 }
 
+.btn-purple {
+	background-color: #292447;
+	color: #ECF0F1;
+}
+
+.btn-purple:hover {
+	background-color: #413C5E;
+	color: #ECF0F1;
+}
+
 footer {
-	margin: 0 auto;
+	// margin: 0 auto;
+	padding: 5px 0 10px 15px;
 	background-color: #BDC3C7;
 }
 
