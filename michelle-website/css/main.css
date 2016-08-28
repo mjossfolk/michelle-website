@@ -4,6 +4,90 @@
    Author's custom styles
    ========================================================================== */
 
+<<<<<<< HEAD
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Courier New;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.jumbotron{
+	background-color: #292447;
+	margin: 0 0;
+}
+
+.jumbotron img{
+	padding: 150px 150px;
+}
+
+.about{
+	padding: 110px 50px;
+	background-color: #D3CED8;
+}
+
+.about h1{
+	padding: 10px 40px;
+	font-size: 50px;
+}
+
+.about img{
+	padding: 50px;
+}
+
+
+.portfolio{
+	display: block;
+	padding: 110px 50px;
+	background-color: #ECF0F1;
+}
+
+.portfolio h1{
+	text-align: center;
+	font-size: 50px;
+	padding: 0 0 20px 0;
+}
+
+.portfolio img{
+	padding: 50px;
+}
+
+.social{
+	display: block;
+	padding: 50px 50px;
+	background-color:#413C5E;
+}
+
+.social h1{
+	text-align: center;
+	font-size: 50px;
+	padding: 0 0 20px 0;
+	color: #ECF0F1;
+}
+
+.contact-form{
+	background-color: #BDC3C7;
+	padding: 110px 50px;
+}
+
+.contact-form h1{
+	text-align: center;
+	font-size: 50px;
+	padding: 0 0 20px 0;
+}
+
+.btn{
+	margin: 10px 0;
+}
+
+footer{
+	margin: 0 auto;
+	background-color: #BDC3C7;
+}
+=======
 
 
 
@@ -20,3 +104,4 @@
 
 
 
+>>>>>>> fecd1448bad6fd371d865a67e652f089d71cefa3
