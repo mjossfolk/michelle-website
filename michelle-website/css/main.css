@@ -13,6 +13,7 @@ html, body {
 p {
 	padding: 0;
 	margin: 0;
+	font-size: 15px;
 }
 
 .container {
@@ -39,14 +40,22 @@ p {
 }
 
 .about h1{
-	padding: 10px 40px;
+	padding: 0 40px 10px;
 	font-size: 50px;
 }
 
-.about img{
-	padding: 50px;
+.fa-code {
+	display:inline-block;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    vertical-align: bottom;
 }
 
+.fa-code:before {
+	font-size: 275px;
+	line-height: 325px;
+}
 
 .portfolio{
 	display: block;
