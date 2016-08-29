@@ -4,10 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
-html, body {
- 	margin: 0;
- 	padding: 0;
-}
+/*  html, body {
+  	margin: 0;
+  	padding: 0;
+} */
 
 p, h1, h3, h4 {
 	font-family: Courier New;
@@ -36,6 +36,9 @@ h1 {
 	  position: absolute;
     top: 50%;
     left: 50%;
+    -ms-transfrom: translate(-50%, -50%);
+    -moz-transfrom: translate(-50%, -50%);
+    -o-transfrom: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -64,7 +67,7 @@ h1 {
 
 
 .portfolio img {
-	padding: 10px 30px;
+	padding: 10px 20px;
 	/*height: 225px;*/
 	/*width: 300px;*/
 }
@@ -77,6 +80,11 @@ h1 {
 .portfolio a:hover {
 	text-decoration: none;
 	/*color: #D3CED8;*/
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .btn-portfolio-link {
@@ -143,7 +151,6 @@ h1 {
 }
 
 footer {
-	// margin: 0 auto;
 	padding: 5px 0 10px 15px;
 	background-color: #BDC3C7;
 }
@@ -167,6 +174,11 @@ h4 {
 
 .about {
 	padding: 20px 0;
+}
+
+.fa-code:before {
+	font-size: 150px;
+	line-height: 200px;
 }
 
 .portfolio {
