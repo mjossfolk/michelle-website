@@ -9,7 +9,7 @@ html, body {
  	padding: 0;
 }
 
-p, h1, h3 {
+p, h1, h3, h4 {
 	font-family: Courier New;
 }
 
@@ -24,10 +24,6 @@ h1 {
 	padding: 0 0 20px 0;
 }
 
-// .container {
-//   	margin: 0 auto;
-// }
-
 .jumbotron {
 	background-color: #292447;
 	margin: 0 0;
@@ -35,16 +31,13 @@ h1 {
 }
 
 .jumbotron img {
-	position: absolute;
+		width: 187px;
+		height: 181px;
+	  position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
-
-.jumbotron img {
-	width: 187px;
-	height: 181px;
 }
 
 .about {
@@ -71,7 +64,27 @@ h1 {
 
 
 .portfolio img {
-	padding: 10px;
+	padding: 10px 30px;
+	/*height: 225px;*/
+	/*width: 300px;*/
+}
+
+.portfolio a {
+	text-decoration: none;
+	color: #292447;
+}
+
+.portfolio a:hover {
+	text-decoration: none;
+	/*color: #D3CED8;*/
+}
+
+.btn-portfolio-link {
+	border: 1px solid #292447;
+}
+
+.btn-portfolio-link:hover {
+	border: 1px solid #D3CED8;
 }
 
 .social {
@@ -98,10 +111,9 @@ h1 {
 	color: #ECF0F1;
 }
 
-// .social i:hover {
-// 	font-size: 60px;
-// 	box-shadow: 10px;
-// }
+ .social i:hover {
+ 	color: #D3CED8;
+}
 
 .contact-form {
 	background-color: #BDC3C7;
@@ -136,6 +148,45 @@ footer {
 	background-color: #BDC3C7;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media(max-width:767px) {
+
+	h1 {
+	font-size: 38px;
+	padding: 0 0 10px 0;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 25px;
+	padding: 0 0 10px 0;
+}
+
+.about {
+	padding: 20px 0;
+}
+
+.portfolio {
+	padding: 20px 0;
+}
+
+.btn-portfolio-link {
+	margin: 10px 0 30px 0;
+}
+
+.portfolio h1 {
+	padding: 0 0 40px;
+}
+
+.contact-form {
+	padding: 20px 0;
+}
+
+
+ }
 
 
 
