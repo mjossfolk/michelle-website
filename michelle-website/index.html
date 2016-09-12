@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/animate.css">
 
+
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
 
@@ -121,25 +122,30 @@
               <h1><strong>Want more info?</strong></h1>
               <h3>Let me know what you need.</h3>
 
-                <form class="form-horizontal" id="contact-form" method="post">
+                <form class="form-horizontal" id="contactForm" data-toggle="validator" class="shake">
 
                     <div class="form-group">
                       <div class="col-sm-12 col-md-6 col-md-offset-3">
-                        <input type="text" name="name "class="form-control" placeholder="Name">
+                        <input type="text" id="name" class="form-control" placeholder="Name" required>
+                        <div class="help-block with-errors"></div>
                       </div>
                     </div>
 
                     <div class="form-group">
                       <div class="col-sm-12 col-md-6 col-md-offset-3">
-                        <input type="email" name="email" class="form-control" placeholder="Email">
+                        <input type="email" id="email" class="form-control" placeholder="Email" required>
+                        <div class="help-block with-errors"></div>
                       </div>
                     </div>
 
                     <div class="form-group">
                       <div class="col-sm-12 col-md-6 col-md-offset-3">
-                        <textarea class="form-control" rows="3" name="message" placeholder="Write me something..."></textarea>
-                        <button type="submit" name="submit" id="submit" class="btn btn-purple btn-lg">Submit</button>
+                        <textarea class="form-control" rows="3" placeholder="Write me something..." required></textarea>
+                        <button type="submit" id="form-submit" type="submit" class="btn btn-purple btn-lg">Submit</button>
                       </div>
+
+                      <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+
                     </div>
 
                 </form>
@@ -156,7 +162,10 @@
         <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/retina.min.js"></script>
-        
+        <script type="text/javascript" src="js/validator.min.js"></script>
+        <script type="text/javascript" src="js/form-scripts.js"></script>
+      
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
