@@ -123,37 +123,10 @@ h1 {
  	color: #D3CED8;
 }
 
-.contact-form {
-	background-color: #BDC3C7;
-	padding: 100px 0;
-}
-
-.contact-form h1 {
-	padding: 0 0 5px;
-}
-
-.contact-form h3 {
-	padding: 0 0 20px;
-}
-
-
-.btn {
-	margin: 10px 0;
-}
-
-.btn-purple {
-	background-color: #292447;
-	color: #ECF0F1;
-}
-
-.btn-purple:hover {
-	background-color: #413C5E;
-	color: #ECF0F1;
-}
-
 footer {
 	padding: 5px 0 10px 15px;
-	background-color: #BDC3C7;
+	background-color: #413C5E;
+	color: #ECF0F1;
 }
 
 /* Small devices (tablets, 768px and up) */
