@@ -9,7 +9,7 @@
   	padding: 0;
 } */
 
-p, h1, h3, h4 {
+p, h1, h2, h3, h4 {
 	font-family: Courier New;
 }
 
@@ -22,6 +22,37 @@ p {
 h1 {
 	font-size: 50px;
 	padding: 0 0 20px 0;
+}
+
+h2{
+	font-size: 35px;
+	padding: 0 0 20px 0;
+}
+
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	line-height: 65px;
+	opacity: .8;
+	//text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #BDC3C7;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	color: #fff;
+	-webkit-transition: background-color 600ms ease-out;
+    -moz-transition: background-color 600ms ease-out;
+    -o-transition: background-color 600ms ease-out;
+    transition: background-color 600ms ease-out;
+}
+
+a:hover.back-to-top {
+	background-color: #292447;
 }
 
 .jumbotron {
@@ -44,7 +75,7 @@ h1 {
 }
 
 .about {
-	padding: 100px 0;
+	padding: 70px 0;
 	background-color: #D3CED8;
 }
 
@@ -61,7 +92,7 @@ h1 {
 
 .portfolio {
 	display: block;
-	padding: 100px 0;
+	padding: 70px 0;
 	background-color: #ECF0F1;
 }
 
@@ -93,6 +124,11 @@ h1 {
 
 .btn-portfolio-link:hover {
 	border: 1px solid #D3CED8;
+}
+
+.code-snippets{
+	padding: 20px 0;
+	background-color: #ECF0F1;
 }
 
 .social {
@@ -128,6 +164,7 @@ footer {
 	background-color: #413C5E;
 	color: #ECF0F1;
 }
+
 
 /* Small devices (tablets, 768px and up) */
 @media(max-width:767px) {
@@ -167,12 +204,8 @@ h4 {
 	padding: 0 0 40px;
 }
 
-.contact-form {
-	padding: 20px 0;
 }
 
-
- }
 
 
 

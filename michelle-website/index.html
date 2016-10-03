@@ -100,13 +100,18 @@
 
     <!--Code Snippets -->
       <div class="code-snippets">
-          <div class="container">
-              <div class="col-md-6">
-                  <p data-height="350" data-theme-id="0" data-slug-hash="VKrGYp" data-default-tab="js,result" data-user="mjossfolk" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mjossfolk/pen/VKrGYp/">ListEasy </a> by Michelle Ross-Claudio (<a href="http://codepen.io/mjossfolk">@mjossfolk</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-              </div>
+          <h2 class="text-center"><strong>Code Snippets</strong></h2>
+              <div class="row">
 
-              <div class="col-md-6">
+                  <div class="col-md-6">
+                      <p data-height="350" data-theme-id="0" data-slug-hash="VKrGYp" data-default-tab="js,result" data-user="mjossfolk" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mjossfolk/pen/VKrGYp/">ListEasy </a> by Michelle Ross-Claudio (<a href="http://codepen.io/mjossfolk">@mjossfolk</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                      <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+                  </div>
+
+                  <div class="col-md-6">
+                      <p data-height="350" data-theme-id="0" data-slug-hash="JRAaPG" data-default-tab="css,result" data-user="mjossfolk" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mjossfolk/pen/JRAaPG/">threadly</a> by Michelle Ross-Claudio (<a href="http://codepen.io/mjossfolk">@mjossfolk</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                      <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+                  </div>
               </div>
           </div>
       </div>
@@ -155,5 +160,30 @@
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
 
+        <script type="text/javascript">
+        // create the back to top button
+            $('body').prepend('<a href="#" class="back-to-top text-center"><i class="fa fa-chevron-up fa-2x"></i></a>');
+
+            var amountScrolled = 300;
+
+            $(window).scroll(function() {
+                if ( $(window).scrollTop() > amountScrolled ) {
+                    $('a.back-to-top').fadeIn('slow');
+              } else {
+                  $('a.back-to-top').fadeOut('slow');
+                }
+            });
+
+            $('a.back-to-top, a.simple-back-to-top').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 700);
+                return false;
+          });
+        </script>
+
+
+
     </body>
+
 </html>
